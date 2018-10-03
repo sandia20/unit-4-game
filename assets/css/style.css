@@ -1,0 +1,67 @@
+body {
+    background-image: url("../images/background.jpg");
+    margin-top: 5%;
+}
+
+/* Main Title */
+#maintitle {
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/* Paragraph container */
+
+#instructions {
+    margin-top: 3%;
+    background-color: aqua;
+    border-style: double;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Score Holder */
+.score-holder {
+    height: 20%;
+}
+
+
+/* Random number */
+.number-to-match {
+    font-size: 30px;
+    background-color: rgb(241, 183, 56);
+    margin-top: 12px;
+}
+h3 {
+    font-size: 22px;
+}
+
+/* Scores */
+.scores  {
+    font-size: 30px;
+    background-color: rgb(157, 73, 236);
+    margin: 12 0 0 20px;
+}
+
+/* Crystals Holder */
+.rounded {
+    
+    height: 14%;
+    border-radius: .9rem!important;
+}
+
+/* Score Label at the end */
+
+#score-label {
+ background-color: aquamarine;
+ margin-top:10px;
+}
+
+#game-score {
+background-color: aquamarine;
+margin-top: 10px;
+height: 10%;
+}
+
+#total-score {
+    font-size: 30px;
+}

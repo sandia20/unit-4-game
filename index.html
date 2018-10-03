@@ -1,0 +1,87 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector | Sandra Nunez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-6" id="maintitle">
+            <h1>Crystals Collector!!</h1>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-6" id="instructions">
+              <br>
+              <h2>Instructions</h2>
+              <p>You will be given a random number at the start of the game.</p>
+              <p>There are four crystals below.  By clicking on a crystal, you will add an specific amount of points to your total score.</p>
+              <p>You win the game by matching your total score to random numbers.  You lose the gme if your total score goes above the random number.</p>
+              <p>The value of each crystal is hidden from you until you click on it.</p>
+              <p>Each time that the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="row score-holder">
+            <div class="col-2"></div>
+            <div class="col-4 number-to-match">
+              <h3>Number to Match:</h3>
+              <span id="numbertomatch">0</span>
+            </div>
+            <div class="col-4 scores">
+              <h3>Wins: </h3>  
+              <span id="wins">0</span>
+              
+              <h3>Losses: </h3>
+              <span id="losses">0</span>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row" id="crystal-holder">
+            <div class="col" class="crystals">
+              <button id="bluebtn" class="thebutton">
+                <img src="./assets/images/blue.jpg"  class="img-fluid rounded" alt="Responsive image">
+              </button>
+            </div>
+            <div class="col" class="crystals">
+              <button id="greenbtn" class="thebutton">
+                <img src="./assets/images/green.jpg" class="img-fluid rounded" alt="Responsive image">
+              </button>            
+            </div>
+            <div class="col" class="crystals">
+              <button id="purplebtn" class="thebutton">
+                <img src="./assets/images/purple.jpg"  class="img-fluid rounded" alt="Responsive image">
+              </button>
+            </div>
+            <div class="col" class="crystals">
+              <button id="redbtn" class="thebutton">
+                <img src="./assets/images/red.jpg"  class="img-fluid rounded" alt="Responsive image">
+              </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="score-label">
+              <h2>Your total score is:</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="game-score">
+             
+              <span id="total-score">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/javascript/game.js"></script>    
+</body>
+</html>
