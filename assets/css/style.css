@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/background.jpg");
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 /* Main Title */
@@ -13,7 +13,7 @@ body {
 /* Paragraph container */
 
 #instructions {
-    margin-top: 3%;
+    margin-top: 1.5%;
     background-color: aqua;
     border-style: double;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,9 +27,10 @@ body {
 
 /* Random number */
 .number-to-match {
-    font-size: 30px;
+    font-size: 22px;
     background-color: rgb(241, 183, 56);
     margin-top: 12px;
+    height: 82%;
 }
 h3 {
     font-size: 22px;
@@ -37,9 +38,10 @@ h3 {
 
 /* Scores */
 .scores  {
-    font-size: 30px;
+    font-size: 22px;
     background-color: rgb(157, 73, 236);
     margin: 12 0 0 20px;
+    height: 82%;
 }
 
 /* Crystals Holder */
